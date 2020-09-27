@@ -28,6 +28,8 @@ public class UserController {
 
         System.out.println("boss最厉害");
 
+        System.out.println("boss觉得岳不群非常的厉害，提的建议很有针对性");
+
         User u1 = new User().setId("1").setName("tom");
         User u2 = new User().setId("2").setName("jack");
         User u3 = new User().setId("3").setName("rose");

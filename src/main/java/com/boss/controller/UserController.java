@@ -24,6 +24,8 @@ import java.util.List;
 public class UserController {
     @GetMapping("/findAll")
     public String findAll() {
+        System.out.println("员工岳不群觉得不靠谱");
+
         User u1 = new User().setId("1").setName("tom");
         User u2 = new User().setId("2").setName("jack");
         User u3 = new User().setId("3").setName("rose");

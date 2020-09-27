@@ -32,6 +32,7 @@ public class UserController {
         list.add(u2);
         list.add(u3);
         ObjectMapper objectMapper = new ObjectMapper();
+        System.out.println("你们都是社会人");
         try {
             int i = 1 / 0;
             log.info("真是社会人：{}", list);
